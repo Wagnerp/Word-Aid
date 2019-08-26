@@ -1,0 +1,177 @@
+WA0001 - changes to ensure foreign word lists are sorted correctly	
+	Fixed 04/09/2002
+
+WA0002 - changes to allow sorting of abbreviation lists. Sorted on abbreviation only,
+		expansion not taken into account							
+	Fixed 04/09/2002
+
+WA0003 - ensure abbreviation edit dialogue displays off the main app window. Needed to make
+		other changes as well to ensure the dialogue window was deleted properly when WA had
+		been minimised with the dialogue window showing - shouldn't happen but might	
+	Fixed 05/09/2002
+
+WA0004 - changes to default colours and font sizes for buttons and wordlist windows in 
+		registry entries											
+	Fixed 04/09/2002
+
+WA0005 - prevent user from entering more than 10 for number of words to return if they are
+		also using selection keys
+	Fixed 10/09/2002
+
+WA0006 - ensure topic lists have initial capitalisation as appropriate like the alpha lists
+	Fixed 19/09/2002
+
+WA0007 - stop No Match being sent to the application
+
+WA0008 - ensure brushes are deleted when drawing buttons - could be cause of resource problem
+		in Win95
+WA0009 - additions to allow compile as demo version. Change project settings/c++/general and 
+		add _DEMO to list of preprocessor definitions
+	Fixed 13/09/2002
+
+WA0010 - make list box searchable in main dialogue window
+	Fixed 13/09/2002
+
+WA0011 - add horizontal scrollbar to wordlist in main window
+
+WA0012 - change settings tree class so it has it's own copy of settings which are updated
+		as changes made to settings in dialogues. Will then update the registry settings
+		if OK selected. Does nothing if Cancel selected.
+
+WA0013 - Fixes the problem with the say buttons disabling when they should be be enabled
+	Fixed 13/09/2002
+
+WA0014 - enable using numbers for abbreviations without capitalising the whole expansion
+	Fixed 20/09/2002
+
+WA0015 - Fix problem with punctuation not clearing wordlist display
+	Fixed 19/09/2002
+
+WA0016 - add hotkey for abbrev button, default value is `
+	Fixed 25/09/2002
+
+WA0017 - add class to display a stop button when there are no more words up/down the list.
+		Also add speech, if enabled, to say 'no more words' when attempt is made to move
+		up or down list and no more words in that direction
+	Fixed 26/09/2002
+
+WA0018 - solve problem with window not displaying properly when returning from displaying
+		abbreviation window
+	Fixed 26/09/2002
+
+WA0019 - ensure abbreviations are spoken regardless of which selection method is used
+	Fixed 26/09/2002
+
+ make changes to enable abbrev options correctly
+	Fixed - 07/11/2002
+
+WA0021 - solve problem with abbrev button hotkey special key not being stored
+	Fixed 01/10/2002
+
+WA0022 - make button images have a maximum size regardless of button size, stop button always
+		square.
+	Fixed 27/09/2002
+
+WA0023 - buttons not resizing when large fonts used
+
+WA0024 - fix problem with min/max wordlength in WordAid settings dlg
+	Fixed 30/10/2002
+
+ensure abbrev undo keys work 
+	Fixed - 07/11/2002
+
+WA0026 - stop auto space working when popup window hidden
+	Fixed - 31/10/2002
+
+WA0027 - add option to speech setup dlg to stop first word in list being spoken automatically.
+	Change default settings so space after word is on.
+
+// Fixed from 12/05/03
+
+WA0028 - Fixes crash in AbbrevEditDlg.
+
+WA0029 - Fixes the problem where the Wordlist or Abbrevlist were loosing their words/abbreviations
+		 if you went to the settings without saving.  The Wordlist now stores the filename that is
+		 opened so that it can be checked to see if it is already opened.
+
+WA0030 - Fixed so that SAve Change has Yes no rather than Ok Cancel.
+
+WA0031 - Looking at Memory leak problems
+
+WA0032 - Fixes bug where last or first item was being spoken when buttons were highlited.
+
+WA0033 - Fixes bug where Abv is always displayed on the Abbrev button in the child window.  Now
+		 if the Topic list is to be display then Topic is display and if Alpha is to be displayed
+		 then Alpha is displayed.
+
+WA0034 - Fixes the problem where the Abbreviations were being expaned when the Child Window was hidden
+
+WA0035 - Improved look a feel of Buttons so that there is a gradiant backgournd and transparent text background
+
+WA0036 - Make sure that filetypes can be opened as problems were found when lower case extensions were checked 
+		 against upper case checks.
+
+WA0037 - If you insert a word from the focus window via the child window to the Topic or Alpha list then the list
+	     is now saved.
+
+WA0038 - When a Wordlist is saved it can be set as not modified.
+
+WA0039 - Displays the word that is going to be inserted in the InsertDelete dialog so the user can actually see
+		 what is being inserted.
+
+WA0040 - Fixes bug where if if two carriage returns were entered after each other that it would cause the abbreviations
+		 expansions to mess up.
+
+WA0041 - If the file is saved the * is now removed from the filename in the window title
+
+WA0042 - Fixex problem with main window getting enabled
+
+WA0043 - Fixes problem with Up down and left and right not being able to be set in the advanced key section to anyother
+         keys.
+
+WA0044 - Fixed problem when Hide Window setting set and the Hotkeys still being captured
+
+WA0045 - Fixed some more Memory problems
+
+WA0046 - More Fixes for Memory
+
+WA0047 - Using an Object for the AbbrevList rather than passing pointers
+
+WA0048 - Fixed bug with AutoSpace after all Words where if the punctuation mark was used after a word the last character
+         of the word would be deleted.
+
+// Version 2.0.8.5
+
+WA0049 - Now when changes are made to a wordlist it does not go to the Save As dialog if there is already a file.
+
+WA0050 - Stop the Topic and Alphabetic Wordlist Add Dialog from allowing access to the main dialog.
+
+// Version 2.0.8.6
+
+WA0051 - Stops the selection from changing if the Popup window is moved and the cusor ends up ontop of it.  The cusor is 
+		 now moved off the Popup window so that selection does not change.
+
+// Version 2.0.8.7
+
+WA0052 - If Abbrev is on and WordAid is off the Down Button is now drawn completly across the 
+		 Wordlist Window. This stops the program crashing.
+
+WA0053 - After inserting an Abbrev with Autospace and then pressing a puncuation key the space 
+		 was not being removed.
+
+// Version 2.0.8.8
+
+WA0054 - Fixed the problem where if the Auto-Caps after Punc is not on but the Topic list was still
+		 captialising the Words when SHIFT was pressed.
+
+WA0055 - Fixed the problem where the Topic and Alpha lists were being overwritten when creating either
+	     a new Topic or Alpha Wordlist.
+
+// Version 2.0.8.9
+
+WA0056 - Fixes the problem where the Topic list displays a captial letter after inserting a word
+		 from the Topic list that is placed after a fullstop.
+
+WA0057 - Fixes problem of SAW and WordAdi not commuinicating
+
+WA0058 - Fixes problem where keys pressed with CTRL + ALT are being captured as a word.

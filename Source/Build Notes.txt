@@ -1,0 +1,16 @@
+The following notes are used to help with the building of WordAid 2
+
+1. The CTreeDialog 'TreeDialog.h && .cpp' should be included from the Controls\Tree Dialog Directory to make sure
+   that the most up-to-date version is being used.  You must add to the preprocessor definition in the Project Settings the
+   _WORDAID_APP definition.  This is so that the resource in the WordAid resource file is used.
+
+2. The CSettingTreeCtrl 'SettingTreeCtrl.h && .cpp' should be included from the Controls\Tree Dialog Directory to make sure
+   that the most up-to-date version is being used.
+
+3. To Build a DEMO version of Wordiad add the Pre-Processor _DEMO.  When creating a Swedish Demo you also need to add 
+   _SWED_DEMO to inculde the Swedish Demo wordlist files.
+
+4. I had trouble running the code when I had made changes to the TreeDialog control.  It was trying to
+   to use the most up-to-date version in the Controls folder, rather than its own.  This should be
+   used in the next version.  For now make sure it uses the version in the directory.
+   	

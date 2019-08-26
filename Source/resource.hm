@@ -1,0 +1,26 @@
+// Microsoft Developer Studio generated Help ID include file.
+// Used by Word Aid 2.rc
+//
+#define HIDC_BTN_ADDWORD                0x80820417    // IDD_ADDWORD_DLG
+#define HIDC_BTN_IDOK                   0x8082040c    // IDD_ADDWORD_DLG
+#define HIDC_BTN_SORT_ALPHA             0x806603ea    // IDD_WORDAID2_DIALOG [English (U.S.)]
+#define HIDC_CHK_AUTO_CAP               0x808a0407    // IDD_GENERAL_SETTINGS
+#define HIDC_CHK_AUTO_SPACE             0x808a0406    // IDD_GENERAL_SETTINGS
+#define HIDC_CHK_AUTO_SPACE_WORD        0x808a040b    // IDD_GENERAL_SETTINGS
+#define HIDC_CHK_FIRSTAUTO              0x80960456    // IDD_SPEECH_SETUP
+#define HIDC_CHK_MINIMIZE               0x808a0408    // IDD_GENERAL_SETTINGS
+#define HIDC_CHK_SHOW_LIST_HOTKEY       0x80880404    // IDD_KEY_SETTINGS
+#define HIDC_CHK_SPEAKALL               0x80960420    // IDD_SPEECH_SETUP
+#define HIDC_CHK_SPEECHON               0x80960419    // IDD_SPEECH_SETUP
+#define HIDC_CMB_COLOUR                 0x808403ed    // IDD_BUTTON_SETTINGS [English (U.S.)]
+#define HIDC_CMB_FONT_COLOUR            0x808403ef    // IDD_BUTTON_SETTINGS [English (U.S.)]
+#define HIDC_CMB_FONT_NAME              0x808403ee    // IDD_BUTTON_SETTINGS [English (U.S.)]
+#define HIDC_CMB_FONT_SIZES             0x808403f2    // IDD_BUTTON_SETTINGS [English (U.S.)]
+#define HIDC_CMB_HIGHLIGHT_COLOUR       0x808603fb    // IDD_WORD_SETTINGS [English (U.S.)]
+#define HIDC_CMB_SELECT_WORD            0x808803fc    // IDD_KEY_SETTINGS
+#define HIDC_COMBO_VOICE                0x8094041a    // IDD_SPEECH_DLG
+#define HIDC_DWELL_ALL                  0x80960421    // IDD_SPEECH_SETUP
+#define HIDC_DWELL_SELECTED             0x80960422    // IDD_SPEECH_SETUP
+#define HIDC_EDIT1                      0x808203e9    // IDD_ADDWORD_DLG
+#define HIDC_STATIC                     0x8064ffff    // IDD_ABOUTBOX [English (U.S.)]
+#define HIDC_TAB_WORDLIST               0x806603eb    // IDD_WORDAID2_DIALOG [English (U.S.)]

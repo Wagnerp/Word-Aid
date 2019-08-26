@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[WordAid2.dsp]
+SCC_Aux_Path = "\\Aceserver2\Public Files\Research & Development\Visual Source Safe\Development\Dev"
+SCC_Project_Name = "$/ACE Software Projects/ACE Software Development Code/WordAid/Current", IDBAAAAA
+
+[WordAid2.dsw]
+SCC_Aux_Path = "\\Aceserver2\Public Files\Research & Development\Visual Source Safe\Development\Dev"
+SCC_Project_Name = "$/ACE Software Projects/ACE Software Development Code/WordAid/Current", IDBAAAAA
